@@ -10,8 +10,8 @@ const userRoutes = require("./routes/user");
 
 const app = express();
 
-const userName = "pandya1821";
-const password = "bhargav1821";
+const userName = "";
+const password = "";
 
 const MONGO_URI=`mongodb+srv://${userName}:${password}@cluster0.m2f7t.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0`;
 // const MONGO_URI = `mongodb+srv://${userName}:${password}@cluster0.tbhhh.mongodb.net/jobPortal?retryWrites=true&w=majority`;
